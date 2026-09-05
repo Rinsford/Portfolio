@@ -1,10 +1,10 @@
 /* window.css */
 body {
-    background-color: #0f380f;
+    background-color: #302619;
     margin: 0;
     position: relative;
     min-height: 100vh;
-    color: #ceff00;
+    color: #FEA413;
     font-family: "VT323", monospace;
     font-weight: 400;
     font-style: normal;
@@ -29,9 +29,34 @@ body {
     background-color: transparent;
     border: none;
     outline: none;
-    color: #ceff00;
+    color: #FEA413;
     font-family: "VT323", monospace;
     font-size: 1rem;
     flex-grow: 1;
     caret-color: transparent;
+}
+
+/* Spilt Screen */
+.split-screen {
+    flex: 1;
+    padding: 40px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+/* left side of the screen */
+.left-screen {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+
+/* right side of the screen */
+.right-screen {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
 }
