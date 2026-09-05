@@ -35,24 +35,3 @@ body {
     flex-grow: 1;
     caret-color: transparent;
 }
-
-/* Spilt Screen */
-.split-screen {
-    flex: 1;
-    padding: 40px;
-    box-sizing: border-box;
-    overflow-y: auto;
-}
-
-/* left side of the screen */
-.left-screen {
-    background-color: #302619;
-    color: #FEA413;
-}
-
-
-/* right side of the screen */
-.right-screen {
-    background-color: #302619;
-    color: #FEA413;
-}
