@@ -18,7 +18,9 @@ function openPopup() {
 }
 
 function closePopupWindow() {
-
+    popupWindow.classList.add('hidden');
+    document.querySelector('#popup-content-projects').classList.add('hidden');
+    document.querySelector('#popup-content-contact').classList.add('hidden');
 }
 
 
@@ -67,11 +69,7 @@ terminalInput.addEventListener('keydown', function(event) {
 });
 
 closePopup.addEventListener('click', function() {
-    popupWindow.classList.add('hidden');
-    // Close any open popup content
-    document.querySelectorAll('.popup-content > div').forEach(function(div) {
-        div.classList.add('hidden');
-    });
+    closePopupWindow();
 });
 
 popupHeader.addEventListener('pointerdown', function(event) {
